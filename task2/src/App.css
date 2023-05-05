@@ -1,0 +1,386 @@
+body {
+  background: #1e1e1e;
+  /* padding: 57px 150px 0; */
+}
+
+.logo {
+  display: flex;
+  gap: 4px;
+}
+.header {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1140px;
+  height: 73px;
+  color: #e4e5ea;
+  gap: 52px; */
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 1140px;
+  height: 73px;
+  color: #e4e5ea;
+  gap: 39px;
+  padding: 0 134px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  /* width: 109px; */
+  height: 19px;
+}
+.links a {
+  /* width: 54px; */
+  height: 19px;
+  /* left: 0px; */
+  /* top: 0px; */
+  text-decoration: none;
+  /* width: 54px; */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13.4px;
+  /* line-height: 19px; */
+  color: #e4e5ea;
+}
+
+.number {
+  padding-left: 89px;
+  width: 143px;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: space-between;
+  gap: 24.5px;
+}
+
+.socialMedia a {
+  /* position: absolute;
+left: 8.33%;
+right: 8.27%;
+top: 15.03%;
+bottom: 15.03%; */
+  left: 8.33%;
+  /* position: absolute; */
+
+  right: 8.27%;
+  width: 16.68px;
+  height: 13.99px;
+
+  color: #e4e5ea;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo .logos {
+  width: 100%;
+}
+
+.logo svg {
+  color: #e4e5ea;
+}
+
+.logo p {
+  width: 165px;
+  height: 24px;
+  font-size: 10px;
+}
+
+.header .logo .description {
+  width: 165px;
+  font-size: 10px;
+  font-family: Montserrat;
+  margin: 0;
+}
+
+.title p span {
+  background-image: linear-gradient(to right, #fcb045, #ff3f78);
+  -webkit-background-clip: text; /* Safari 3 and older */
+  background-clip: text; /* Standard syntax */
+  -webkit-text-fill-color: transparent;
+  background-size: 100% 100%;
+  margin: 0;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  line-height: 58.09px;
+  margin: 0;
+}
+
+.about h2 {
+  width: 362px;
+  height: 116px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 58px;
+  color: #e4e5ea;
+  margin: 0;
+}
+
+.about h3 {
+  background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 42px;
+}
+
+.about p {
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21.5px;
+  line-height: 22px;
+  color: #e4e5ea;
+  margin-top: 31px;
+  width: 270px;
+}
+
+.consult {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  flex-wrap: wrap;
+  width: 301px;
+  width: 291px;
+  height: 44px;
+  font-size: 18px;
+  line-height: 22px;
+  justify-content: right;
+  padding-top: 19px;
+  width: 320px;
+}
+
+.consult .title {
+  font-family: "Inter";
+}
+.consult .items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+}
+
+.consult .items .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.container {
+  display: flex;
+  padding: 85px 134px;
+  gap: 358px;
+}
+
+.container .title P {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: right;
+  color: #e4e5ea;
+  margin: 0;
+}
+
+.container .title P {
+  font-size: 17.4px;
+}
+
+.container .item h5 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 31px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #e4e5ea;
+  /* width: 101px; */
+  height: 29px;
+  margin: 0;
+}
+
+.container .item p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17.5px;
+  line-height: 20px;
+  text-align: right;
+  color: #e4e5ea;
+  height: 40px;
+  margin: 0;
+}
+.container .item .vidjet {
+  width: 89px;
+}
+.container .item .skype {
+  width: 135px;
+}
+.container .item .dashboard {
+  width: 149px;
+  padding-right: 4px;
+}
+.container .item .day {
+  width: 130px;
+  font-size: 18.2px;
+}
+.container .item .skypeAudit {
+  width: 141px;
+  margin-top: 18px;
+  margin-right: 18px;
+}
+
+.container .btn {
+  display: flex;
+  width: 100%;
+  padding-top: 24px;
+  align-items: center;
+  justify-content: right;
+}
+.container .btn button {
+  /* margin-top: 61px; */
+  width: 237px;
+  height: 55px;
+  background: #4077f3;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #e4e5ea;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  padding: 128px 0px 0 128px;
+}
+
+.footer > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer h5 {
+  width: 106px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #656566;
+  margin-bottom: 16px;
+}
+
+.footer a {
+  text-decoration: none;
+  width: 195px;
+  height: 27px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14.6px;
+  line-height: 19px;
+  color: #e4e5ea;
+}
+
+.footer .menu {
+  padding-left: 82px;
+  width: 177px;
+}
+
+.footer .cases {
+  padding-top: 52px;
+}
+
+.footer .cases a {
+  width: 212px;
+  font-size: 14px;
+}
+
+.footer .contacts {
+  /* padding-left: 138px; */
+  align-items: flex-end;
+}
+
+.footer .contacts h5{
+  margin-bottom: 0;
+  margin-left: 313px;
+  width: 100px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #656566;
+}
+
+.footer .contacts p{
+width: 153px;
+color: #e4e5ea;
+
+}
+
+.footer .contacts .street{
+  width: 306px;
+  height: 46px;
+  margin-top: 33px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: -4px;
+  text-align: right;
+  margin-right: 47px;
+  color: #E4E5EA;
+
+}
+
+.footer .policy{
+width: 239px;
+height: 15px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 15px;
+text-align: right;
+color: #E4E5EA;
+}
+
+.footer .policy p{
+  width: 240px;
+  font-size: 12.5px;
+  margin: 0;
+  margin-left: -35px;
+}
+  
+
+@media (min-width: 1300px) {
+
+}
